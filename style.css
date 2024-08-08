@@ -15,7 +15,11 @@
 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+
+    list-style: none;
 }
+
+/* Container */
 
 .l-flex {
     display: flex;
@@ -25,7 +29,19 @@
 }
 
 
+/* SignUP Form  starts*/
+
+.signup-form>*:not(:first-child) {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* SignUP Form  ends*/
+
+/* Success Message starts */
 
 .success-message {
     display: none;
 }
+
+/* Success Message ends */
