@@ -39,12 +39,12 @@
 main {
     align-items: center;
     min-height: 100vh;
-    margin-bottom: var(--spacing-40);
+    padding-bottom: var(--spacing-40);
 }
 
 .signup__image {
     width: 100%;
-    max-width: 375px;
+    max-width: 425px;
 }
 
 /* SignUP Form  starts*/
