@@ -35,48 +35,48 @@
         src="./assets/images/illustration-sign-up-mobile.svg"
         alt="background image"
       />
-      <div class=" signup-form">
-      <div class="signup-content l-flex">
-        <h1 class="signup__headline">Stay updated!</h1>
+      <div class="signup-form">
+        <div class="signup-content l-flex">
+          <h1 class="signup__headline">Stay updated!</h1>
 
-        <p class="signup__paragraph">
-          Join 60,000+ product managers receiving monthly updates on:
-        </p>
+          <p class="signup__paragraph">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
 
-        <ul class="l-list">
-          <li class="l-list__item l-flex">
-            <p>Product discovery and building what matters</p>
-          </li>
-          <li class="l-list__item l-flex">
-            <p>Measuring to ensure updates are a success</p>
-          </li>
-          <li class="l-list__item l-flex"><p>And much more!</p></li>
-        </ul>
-      </div>
-
-      <form id="c-form" class="c-form">
-        <small>Email address</small>
-        <div class="c-form-field">
-          <fieldset>
-            <input
-              autofocus
-              class="c-form-field__input"
-              name="email"
-              type="email"
-              id="email"
-              required
-              placeholder="email@company.com"
-            />
-          </fieldset>
-          <div class="c-form-field__messages"></div>
+          <ul class="l-list">
+            <li class="l-list__item l-flex">
+              <p>Product discovery and building what matters</p>
+            </li>
+            <li class="l-list__item l-flex">
+              <p>Measuring to ensure updates are a success</p>
+            </li>
+            <li class="l-list__item l-flex"><p>And much more!</p></li>
+          </ul>
         </div>
 
-        <div class="c-form-footer">
-          <button class="c-btn c-btn-primary" type="submit">
-            Subscribe to monthly newsletter
-          </button>
-        </div>
-      </form>
+        <form id="c-form" class="c-form">
+          <small>Email address</small>
+          <div class="c-form-field">
+            <fieldset>
+              <input
+                autofocus
+                class="c-form-field__input"
+                name="email"
+                type="email"
+                id="email"
+                required
+                placeholder="email@company.com"
+              />
+            </fieldset>
+            <div class="c-form-field__messages"></div>
+          </div>
+
+          <div class="c-form-footer">
+            <button class="c-btn c-btn-primary" type="submit">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </form>
       </div>
     </main>
 
@@ -85,19 +85,28 @@
     <!-- Success message start -->
 
     <main class="success-message l-flex">
-      <img class="success-icon" src="./assets/images/icon-success.svg" alt="success icon">
-      <h1 class="success-message__headline">Thanks for subscribing!</h1>
+      <section class="success__aligning l-flex">
+        <div>
+          <img
+            class="success-icon"
+            src="./assets/images/icon-success.svg"
+            alt="success icon"
+          />
+          <h1 class="success-message__headline">Thanks for subscribing!</h1>
 
-      <p class="success-message__paragraph">
-        A confirmation email has been sent to <b>ash@loremcompany.com</b>. Please open
-        it and click the button inside to confirm your subscription.
-      </p>
+          <p class="success-message__paragraph">
+            A confirmation email has been sent to <b>ash@loremcompany.com</b>.
+            Please open it and click the button inside to confirm your
+            subscription.
+          </p>
+        </div>
 
-      <div class="btn-wrapper">
-        <button class="c-btn c-btn-primary success-btn" type="button">
-          Dismiss message
-        </button>
-      </div>
+        <div class="btn-wrapper">
+          <button class="c-btn c-btn-primary success-btn" type="button">
+            Dismiss message
+          </button>
+        </div>
+      </section>
     </main>
 
     <!-- Success message end -->

@@ -131,8 +131,11 @@ input {
 .success-message {
     padding-left: var(--spacing-24);
     padding-right: var(--spacing-24);
+    margin: 0 auto;
     justify-content: center;
     align-items: flex-start;
+
+    max-width: 425px;
 }
 
 .success-icon {
