@@ -37,11 +37,20 @@
 }
 
 
-/* SignUP Form  starts*/
-
 .signup-form>*:not(:first-child) {
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: var(--spacing-24);
+    margin-right: var(--spacing-24);
+}
+
+.signup-content {
+    margin-top: var(--spacing-40); /* 40px */
+    margin-bottom: var(--spacing-40); /* 40px */
+    gap: var(--spacing-24); /* 24px */
+}
+
+.signup__headline {
+    font-size: var(--spacing-40); /* 40px */
+    font-weight: 700; /* bold */
 }
 
 /* SignUP Form  ends*/
