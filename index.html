@@ -29,7 +29,7 @@
   <body>
     <!-- Sign-up form start -->
 
-    <main class="l-flex">
+    <main class="l-flex close">
       <img
         class="signup__image"
         src="./assets/images/illustration-sign-up-mobile.svg"
@@ -84,16 +84,17 @@
 
     <!-- Success message start -->
 
-    <main class="l-flex success-message">
-      <h1>Thanks for subscribing!</h1>
+    <main class="success-message l-flex">
+      <img class="success-icon" src="./assets/images/icon-success.svg" alt="success icon">
+      <h1 class="success-message__headline">Thanks for subscribing!</h1>
 
-      <p>
-        A confirmation email has been sent to ash@loremcompany.com. Please open
+      <p class="success-message__paragraph">
+        A confirmation email has been sent to <b>ash@loremcompany.com</b>. Please open
         it and click the button inside to confirm your subscription.
       </p>
 
-      <div>
-        <button class="c-btn c-btn-primary" type="button">
+      <div class="btn-wrapper">
+        <button class="c-btn c-btn-primary success-btn" type="button">
           Dismiss message
         </button>
       </div>

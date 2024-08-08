@@ -68,7 +68,7 @@ main {
     gap: var(--spacing-24); /* 24px */
 }
 
-.signup__headline {
+.signup__headline, .success-message__headline {
     font-size: var(--spacing-40); /* 40px */
     font-weight: 700; /* bold */
 }
@@ -124,9 +124,27 @@ input {
 /* SignUP Form  ends*/
 
 /* Success Message starts */
+.close {
+    display: none;
+}
 
 .success-message {
-    display: none;
+    padding-left: var(--spacing-24);
+    padding-right: var(--spacing-24);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.success-icon {
+    margin-bottom: var(--spacing-40);
+}
+
+.success-message__headline {
+    margin-bottom: var(--spacing-24);
+}
+
+.btn-wrapper {
+    width: 100%;
 }
 
 /* Success Message ends */
