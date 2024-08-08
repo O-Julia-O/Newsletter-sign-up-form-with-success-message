@@ -1,5 +1,6 @@
 :root {
-    
+    --spacing-24: 1.5rem;
+    --spacing-40: 2.5rem;
 }
 
 @font-face {
