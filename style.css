@@ -25,6 +25,13 @@
 .l-flex {
     display: flex;
     flex-direction: column;
+}
+
+
+/* SignUP Form  starts*/
+
+/* add margin every child except the first one (img)  */
+.signup-form {
     align-items: center;
     min-height: 100vh;
 }
