@@ -1,6 +1,15 @@
 :root {
     --spacing-24: 1.5rem;
     --spacing-40: 2.5rem;
+
+    --Tomato: #ff6257;
+
+    /* ### Neutral */
+
+    --Dark-Slate-Grey: #242742;
+    --Charcoal-Grey: #36384e;
+    --Grey: #9294a0;
+    --White: #ffffff;
 }
 
 @font-face {
@@ -30,8 +39,13 @@
 main {
     align-items: center;
     min-height: 100vh;
+    margin-bottom: var(--spacing-40);
 }
 
+.signup__image {
+    width: 100%;
+    max-width: 375px;
+}
 
 /* SignUP Form  starts*/
 
@@ -41,7 +55,7 @@ main {
 }
 
 
-.signup-form>*:not(:first-child) {
+.signup-form {
     margin-left: var(--spacing-24);
     margin-right: var(--spacing-24);
 }
@@ -80,15 +94,23 @@ input {
     width: 100%;
     padding: 1rem 24px;
     border-radius: 8px;
+
+    margin-bottom: var(--spacing-24);
 }
 
 .c-form small {
     font-size: 0.75rem;
     font-weight: 700;
+
 }
 
 .c-btn {
-    
+    color: var(--White);
+    background-color: var(--Charcoal-Grey);
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 8px;
 } 
 
 /* email-form ends*/
