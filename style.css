@@ -53,6 +53,18 @@
     font-weight: 700; /* bold */
 }
 
+.l-list__item {
+    flex-direction: row;
+}
+
+.l-list__item::before {
+    content: url(./assets/images/icon-list.svg);
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1em;
+}
 /* SignUP Form  ends*/
 
 /* Success Message starts */
