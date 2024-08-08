@@ -75,6 +75,10 @@ main {
     flex-direction: row;
 }
 
+.l-list__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .l-list__item::before {
     content: url(./assets/images/icon-list.svg);
     width: 21px;
