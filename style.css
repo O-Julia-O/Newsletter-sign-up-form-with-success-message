@@ -27,13 +27,17 @@
     flex-direction: column;
 }
 
+main {
+    align-items: center;
+    min-height: 100vh;
+}
+
 
 /* SignUP Form  starts*/
 
 /* add margin every child except the first one (img)  */
 .signup-form {
-    align-items: center;
-    min-height: 100vh;
+    max-width: 375px;
 }
 
 
@@ -65,6 +69,30 @@
     vertical-align: middle;
     margin-right: 1em;
 }
+
+/* email-form starts*/
+
+fieldset, button {
+    border: none;
+}
+
+input {
+    width: 100%;
+    padding: 1rem 24px;
+    border-radius: 8px;
+}
+
+.c-form small {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.c-btn {
+    
+} 
+
+/* email-form ends*/
+
 /* SignUP Form  ends*/
 
 /* Success Message starts */
