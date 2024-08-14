@@ -45,7 +45,6 @@ main {
 
 .card {
     background-color: white;
-    border-radius: 36px;
 }
 
 .signup__image {
@@ -183,5 +182,10 @@ input {
         margin: 24px;
         max-width: 400px;
     }
+
+    .signup-form {
+        margin: auto;
+    }
+
 
 }
