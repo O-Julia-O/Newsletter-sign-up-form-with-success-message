@@ -179,13 +179,23 @@ input {
     }
 
     .signup__image {
-        margin: 24px;
-        max-width: 400px;
+        padding: 24px;
+        min-width: 400px;
     }
 
     .signup-form {
         margin: auto;
+        margin-left: 4rem;
+        margin-right: 2.5rem;
+        padding: 0;
     }
 
+    .signup-content {
+        margin-bottom: 2.5rem;
+    }
+
+    .signup__headline {
+        font-size: 3.5rem;
+    }
 
 }
