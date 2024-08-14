@@ -134,7 +134,7 @@ input {
     margin: 0 auto;
     justify-content: center;
 
-    max-width: 425px;
+    max-width: 26.563rem;
 }
 
 .success__aligning {
@@ -159,3 +159,11 @@ input {
 /* ======================================================== */
                 /* Media queris */
 /* ======================================================== */
+
+@media screen and (min-width: 48rem){
+    .container {
+        max-width: 938px;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+}
