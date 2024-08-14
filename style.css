@@ -39,7 +39,7 @@
 main {
     align-items: center;
     min-height: 100vh;
-    background-color: #36384D;
+    
     /* padding-bottom: var(--spacing-40); */
 }
 
@@ -69,8 +69,8 @@ main {
 
 .signup-content {
     gap: var(--spacing-24); /* 24px */
+    margin-bottom: 2.5rem;
 }
-
 .signup__headline, .success-message__headline {
     font-size: var(--spacing-40); /* 40px */
     font-weight: 700; /* bold */
@@ -163,10 +163,11 @@ input {
                 /* Media queris */
 /* ======================================================== */
 
-@media screen and (min-width: 48rem){
+@media screen and (min-width: 90em){
     main {
         align-items: center;
         justify-content: center;
+        background-color: #36384D;
     }
 
     .card {
@@ -188,10 +189,6 @@ input {
         margin-left: 4rem;
         margin-right: 2.5rem;
         padding: 0;
-    }
-
-    .signup-content {
-        margin-bottom: 2.5rem;
     }
 
     .signup__headline {
