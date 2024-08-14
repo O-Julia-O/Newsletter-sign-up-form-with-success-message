@@ -164,6 +164,15 @@ input {
     width: 100%;
 }
 
+.invalid{
+    border-color: #FF6155;
+    background-color: rgba(255, 96, 85, 0.15);
+}
+
+.invalid::placeholder  {
+    color:  #FF6155;
+}
+
 /* Success Message ends */
 
 /* ======================================================== */
@@ -205,6 +214,11 @@ input {
     .small-container {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+    
+    .c-form-field__messages {
+        color: #FF6155;
     }
 
 }
