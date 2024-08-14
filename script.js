@@ -17,8 +17,11 @@ function handleSubnit(e) {
 
     /* if emailErrorMessage is not empty */
     if (emailErrorMessage) {
+        const input = document.getElementById("email");
         /* find classname */
         const emailErrorMessageElement = document.querySelector(".c-form-field__messages");
+        /* styles for input */
+        input.classList.add("invalid");
         /* show error message to user */
         emailErrorMessageElement.innerText = emailErrorMessage;
     }
