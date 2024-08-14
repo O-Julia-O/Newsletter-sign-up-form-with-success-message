@@ -39,6 +39,7 @@
 main {
     align-items: center;
     min-height: 100vh;
+    background-color: white;
     
     /* padding-bottom: var(--spacing-40); */
 }
@@ -150,6 +151,7 @@ input {
 .success__aligning {
     min-height: inherit;
     justify-content: space-evenly;
+    background-color: white;
 }
 
 .success-icon {
@@ -219,6 +221,18 @@ input {
     
     .c-form-field__messages {
         color: #FF6155;
+    }
+
+    .success-message {
+        max-width: 100%;
+    }
+
+    .success__aligning {
+        border-radius: 36px;
+        min-height: auto;
+        justify-content: center;
+        max-width: 31.5rem;
+        padding: 3rem 4rem 4rem 4rem;
     }
 
 }
