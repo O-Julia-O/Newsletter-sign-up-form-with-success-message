@@ -50,7 +50,7 @@ main {
 
 /* add margin every child except the first one (img)  */
 .signup-form {
-    max-width: 425px;
+    max-width: 26.563rem;
     padding-bottom: var(--spacing-40);
 }
 
@@ -159,9 +159,13 @@ input {
 /* ======================================================== */
 
 @media screen and (min-width: 48rem){
+    main {
+        align-items: center;
+        justify-content: center;
+    }
+
     .container {
         max-width: 938px;
         flex-direction: row;
-        margin: 0 auto;
     }
 }
