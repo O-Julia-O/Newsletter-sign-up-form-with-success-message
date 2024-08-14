@@ -179,5 +179,9 @@ input {
         flex-direction: row-reverse;
     }
 
+    .signup__image {
+        margin: 24px;
+        max-width: 400px;
     }
+
 }
