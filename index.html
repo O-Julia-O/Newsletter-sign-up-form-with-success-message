@@ -60,7 +60,10 @@
           </div>
   
           <form id="c-form" class="c-form" novalidate>
-            <small>Email address</small>
+            <div class="small-container">
+              <small>Email address</small>
+              <small class="c-form-field__messages"></small>
+            </div>
             <div class="c-form-field">
               <fieldset>
                 <input
@@ -69,11 +72,9 @@
                   name="email"
                   type="email"
                   id="email"
-                  required
                   placeholder="email@company.com"
                 />
               </fieldset>
-              <div class="c-form-field__messages"></div>
             </div>
   
             <div class="c-form-footer">
