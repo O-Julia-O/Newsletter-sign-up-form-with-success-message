@@ -170,6 +170,10 @@ input {
         justify-content: center;
     }
 
+    .card {
+        border-radius: 36px;
+    }
+
     .container {
         max-width: 938px;
         flex-direction: row;
