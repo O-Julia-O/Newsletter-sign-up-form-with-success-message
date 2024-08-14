@@ -235,4 +235,8 @@ input {
         padding: 3rem 4rem 4rem 4rem;
     }
 
+    .success-message-text {
+        margin: 40px 0;
+    }
+
 }
