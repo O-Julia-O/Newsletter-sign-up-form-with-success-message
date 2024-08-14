@@ -13,7 +13,20 @@ function handleSubnit(e) {
     }
 
     console.log(data); /* email: "4857485" */
+    const emailErrorMessage = validateEmail(data.email);
 
 }
 
 formEmail.addEventListener("submit", handleSubnit);
+
+function validateEmail(email) {
+    if(!email) return "Email is required";
+
+    const isValidEmail = /^\S+@\S+$/g; /* there are characters before and after the @ symbol.  */
+
+    if (!isValidEmail.test(email)) { /* method test checks the current String on validation by using the RegEx */
+        return "Please enter a valid email";
+    }
+
+    return '';
+}
