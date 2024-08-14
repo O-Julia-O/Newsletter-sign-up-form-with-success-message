@@ -166,6 +166,16 @@ input {
     width: 100%;
 }
 
+.small-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.c-form-field__messages {
+    color: #FF6155;
+}
+
 .invalid{
     border-color: #FF6155;
     background-color: rgba(255, 96, 85, 0.15);
@@ -211,16 +221,6 @@ input {
 
     .signup__headline {
         font-size: 3.5rem;
-    }
-
-    .small-container {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-    }
-    
-    .c-form-field__messages {
-        color: #FF6155;
     }
 
     .success-message {
