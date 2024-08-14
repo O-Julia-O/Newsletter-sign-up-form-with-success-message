@@ -15,6 +15,14 @@ function handleSubnit(e) {
     console.log(data); /* email: "4857485" */
     const emailErrorMessage = validateEmail(data.email);
 
+    /* if emailErrorMessage is not empty */
+    if (!emailErrorMessage) {
+        /* find classname */
+        const emailErrorMessageElement = document.querySelector(".c-form-field__messages");
+        /* show error message to user */
+        emailErrorMessage.innerText = emailErrorMessage;
+    }
+
 }
 
 formEmail.addEventListener("submit", handleSubnit);
