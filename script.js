@@ -26,6 +26,13 @@ function handleSubnit(e) {
         emailErrorMessageElement.innerText = emailErrorMessage;
     }
 
+    if (!emailErrorMessage) {
+        const mainEmailMessageForm = document.querySelector(".email-message");
+        mainEmailMessageForm.classList.add("close");
+        const showsuccessMessage = document.querySelector(".success-message");
+        showsuccessMessage.classList.remove('close');
+    }
+
 }
 
 formEmail.addEventListener("submit", handleSubnit);
