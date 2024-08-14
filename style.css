@@ -39,7 +39,12 @@
 main {
     align-items: center;
     min-height: 100vh;
+    background-color: #36384D;
     /* padding-bottom: var(--spacing-40); */
+}
+
+.card {
+    background-color: white;
 }
 
 .signup__image {
