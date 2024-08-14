@@ -56,8 +56,8 @@ main {
 
 
 .signup-form {
-    margin-left: var(--spacing-24);
-    margin-right: var(--spacing-24);
+    padding-left: var(--spacing-24);
+    padding-right: var(--spacing-24);
 }
 
 .signup-content {
