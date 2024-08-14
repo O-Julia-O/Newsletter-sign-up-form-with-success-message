@@ -202,4 +202,9 @@ input {
         font-size: 3.5rem;
     }
 
+    .small-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
