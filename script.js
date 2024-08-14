@@ -16,11 +16,11 @@ function handleSubnit(e) {
     const emailErrorMessage = validateEmail(data.email);
 
     /* if emailErrorMessage is not empty */
-    if (!emailErrorMessage) {
+    if (emailErrorMessage) {
         /* find classname */
         const emailErrorMessageElement = document.querySelector(".c-form-field__messages");
         /* show error message to user */
-        emailErrorMessage.innerText = emailErrorMessage;
+        emailErrorMessageElement.innerText = emailErrorMessage;
     }
 
 }
