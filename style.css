@@ -176,6 +176,8 @@ input {
 
     .container {
         max-width: 938px;
-        flex-direction: row;
+        flex-direction: row-reverse;
+    }
+
     }
 }
