@@ -17,7 +17,6 @@ function handleSubnit(e) {
         data[field.name] = field.value;
     }
 
-    console.log(data); /* email: "4857485" */
     const emailErrorMessage = validateEmail(data.email);
 
     /* if emailErrorMessage is not empty */
