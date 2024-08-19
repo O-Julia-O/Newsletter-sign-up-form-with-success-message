@@ -1,4 +1,8 @@
 const formEmail = document.getElementById("c-form");
+const dismissBtn = document.getElementById("success-btn");
+const mainEmailMessageForm = document.querySelector(".email-message");
+const showsuccessMessage = document.querySelector(".success-message");
+
 
 function handleSubnit(e) {
     /* prevent the default behavior of the onsubmit event */
@@ -27,15 +31,11 @@ function handleSubnit(e) {
     }
 
     if (!emailErrorMessage) {
-        const mainEmailMessageForm = document.querySelector(".email-message");
         mainEmailMessageForm.classList.add("close");
-        const showsuccessMessage = document.querySelector(".success-message");
         showsuccessMessage.classList.remove('close');
     }
 
 }
-
-formEmail.addEventListener("submit", handleSubnit);
 
 function validateEmail(email) {
     if(!email) return "Email is required";
@@ -48,3 +48,11 @@ function validateEmail(email) {
 
     return '';
 }
+
+function returnToMainPage() {
+    mainEmailMessageForm.classList.remove("close");
+    showsuccessMessage.classList.add("close");
+}
+
+formEmail.addEventListener("submit", handleSubnit);
+dismissBtn.addEventListener("click", returnToMainPage);
