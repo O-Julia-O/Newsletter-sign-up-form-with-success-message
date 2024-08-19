@@ -144,8 +144,6 @@ input {
     padding-right: var(--spacing-24);
     margin: 0 auto;
     justify-content: center;
-
-    max-width: 26.563rem;
 }
 
 .success__aligning {
