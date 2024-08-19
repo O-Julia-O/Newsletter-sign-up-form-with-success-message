@@ -2,6 +2,7 @@ const formEmail = document.getElementById("c-form");
 const dismissBtn = document.getElementById("success-btn");
 const mainEmailMessageForm = document.querySelector(".email-message");
 const showsuccessMessage = document.querySelector(".success-message");
+const emailOfClient = document.getElementById("emailOfClient")
 
 
 function handleSubnit(e) {
@@ -30,8 +31,10 @@ function handleSubnit(e) {
         emailErrorMessageElement.innerText = emailErrorMessage;
     }
 
+    /* show success message */
     if (!emailErrorMessage) {
         mainEmailMessageForm.classList.add("close");
+        emailOfClient.textContent = data.email;
         showsuccessMessage.classList.remove('close');
     }
 
