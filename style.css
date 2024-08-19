@@ -104,7 +104,7 @@ input {
     width: 100%;
     padding: 1rem 24px;
     border-radius: 8px;
-
+    border: 1px solid #dadada;
     margin-bottom: var(--spacing-24);
 }
 
